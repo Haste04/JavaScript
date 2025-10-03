@@ -35,3 +35,7 @@ button {
     background: darkred;
 }
 
+#save-btn {
+    cursor: pointer;
+    background: darkblue;
+}
