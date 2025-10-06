@@ -6,6 +6,12 @@ body {
     text-align: center;
 }
 
+#welcome-el {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;

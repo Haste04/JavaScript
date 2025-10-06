@@ -1,3 +1,8 @@
+let welcomeEl = document.getElementById("welcome-el")
+let name = "User"
+let greeting = "Welcome, "
+welcomeEl.innerText = greeting + name
+
 let countEl = document.getElementById("count-el")
 let count = -1
 
