@@ -45,3 +45,9 @@ button {
     cursor: pointer;
     background: darkblue;
 }
+
+#previous-entries {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
