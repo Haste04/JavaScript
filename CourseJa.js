@@ -10,12 +10,12 @@ let previousEntries = document.getElementById("previous-entries")
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save(){
-    let entries = " " + count + " - ";
-    previousEntries.innerText += entries
+    let entries = count + " - ";
+    previousEntries.textContent += entries
     count = 0;
-    countEl.innerText = count
+    countEl.textContent = count
 }
