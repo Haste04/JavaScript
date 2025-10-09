@@ -65,8 +65,51 @@ button {
     background: darkblue;
 }
 
+.hidden {
+    display: none;
+}
+
+#save-tab {
+    position: fixed;             
+    top: 50%;                    
+    left: 50%;                    
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#yes-btn {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#no-btn {
+    margin-top: 5px;
+    background-color: rgb(243, 4, 4);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 #previous-entries {
     color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#profit-entries {
+    color: lightgreen;
     font-size: 20px;
     margin-top: 20px;
 }

@@ -9,8 +9,16 @@
             <h2 id="count-el">0</h2>
             <!-- Create a INCREMENT button with the id="increment-btn" -->
             <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id ="save-btn" onclick = "save()">SAVE</button>
+            <!-- Create a SAVE button with the id="save-btn" -->
+            <button id ="save-btn">SAVE</button>
+            <!-- Hidden Mini tab for save button-->
+            <div id = "save-tab" class = "hidden">
+                <p>Are you sure you want to save? (You must save only once a day)</p>
+                <button id = "yes-btn" onclick = "saveYes()">YES</button>
+                <button id = "no-btn">NO</button>
+            </div>
             <p id = "previous-entries">Previous Entries: </p>
+            <p id = "profit-entries">Profit: </p>
         </div>
         <script src="CourseJa.js"></script>
     </body>
